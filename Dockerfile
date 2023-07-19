@@ -39,8 +39,7 @@ RUN pip install pandas; \
     cd ~/openmc; \
     pip install .
 
-RUN pip3 install    pandas \
-                    flake8==5.0.4 \
+RUN pip3 install    flake8==5.0.4 \
                     flake8-docstrings==1.6.0 \
                     black==22.3.0 \
                     docformatter==1.5.0 \
